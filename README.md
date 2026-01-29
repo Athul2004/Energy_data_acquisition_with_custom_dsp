@@ -100,7 +100,8 @@ The `Accumulate_Data` function iterates through raw ADC values for Voltage ($V$)
 5.  **Output**:
     -   The results are formatted and sent to the **OLED** and **UART** every second.
 
-![Energy Aggregation](energy_aggregation.png)
+![Energy Aggregation](<img width="300" height="275" alt="image" src="https://github.com/user-attachments/assets/eb742167-cc4a-4b8d-a56f-7c79a40a6e74" />
+)
 
 
 ## Build & Run
