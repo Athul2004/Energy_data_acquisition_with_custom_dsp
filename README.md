@@ -30,7 +30,34 @@ The system utilizes a bare-metal architecture with no HAL/Standard Peripheral Li
 ![WhatsApp Image 2026-01-30 at 1 32 57 AM](https://github.com/user-attachments/assets/e84616b6-3bc6-464d-b73d-a08a89120a95)
 
 
+## Project Structure
 
+```text
+Energy_monitor/
+├── inc/
+│   ├── adc_dma_driver.h
+│   ├── energy_meter.h
+│   ├── fonts.h
+│   ├── i2c_driver.h
+│   ├── ssd1306.h
+│   ├── stm32_f446xx.h
+│   ├── timer_driver.h
+│   └── uart_driver.h
+└── src/
+    ├── adc_dma_driver.c
+    ├── energy_meter.c
+    ├── fonts.c
+    ├── i2c_driver.c
+    ├── main.c
+    ├── ssd1306.c
+    ├── syscalls.c
+    ├── sysmem.c
+    ├── timer_driver.c
+    └── uart_driver.c
+```
+
+
+---
 
 ---
 
