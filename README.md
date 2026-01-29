@@ -115,3 +115,10 @@ The `Accumulate_Data` function iterates through raw ADC values for Voltage ($V$)
 
 ![WhatsApp Image 2026-01-30 at 1 08 35 AM](https://github.com/user-attachments/assets/186e39c4-3d8d-4bd2-87a0-45933352a9bc)
 
+
+6.  View debugging logs via UART on a Serial Terminal (115200 baud).
+
+<img width="820" height="510" alt="image" src="https://github.com/user-attachments/assets/ee21d6c4-ae28-4d44-867e-fdd9af486fa9" />
+
+
+
