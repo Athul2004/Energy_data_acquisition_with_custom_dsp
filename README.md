@@ -100,7 +100,7 @@ The `Accumulate_Data` function iterates through raw ADC values for Voltage ($V$)
 5.  **Output**:
     -   The results are formatted and sent to the **OLED** and **UART** every second.
 
-![WhatsApp Image 2026-01-30 at 1 08 35 AM](https://github.com/user-attachments/assets/705c9574-461b-418f-875d-21bf739cea8e)
+![WhatsApp Image 2026-01-30 at 1 08 35 AM (1)](https://github.com/user-attachments/assets/b59ba95e-5abb-4c94-974c-bffb59e3e1f4)
 
 
 
