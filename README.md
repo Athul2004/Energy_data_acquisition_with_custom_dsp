@@ -113,5 +113,5 @@ The `Accumulate_Data` function iterates through raw ADC values for Voltage ($V$)
 4.  Connect sensors to assigned Analog pins (PA0/PA1 typical).
 5.  View output on OLED or Serial Terminal (115200 baud).
 
-![OLED Initialization](oled_init.png)
+![WhatsApp Image 2026-01-30 at 1 08 35 AM](https://github.com/user-attachments/assets/186e39c4-3d8d-4bd2-87a0-45933352a9bc)
 
