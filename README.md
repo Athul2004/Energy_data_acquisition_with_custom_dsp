@@ -27,7 +27,8 @@ The system utilizes a bare-metal architecture with no HAL/Standard Peripheral Li
 | **Display** | 0.96" OLED (SSD1306) via I2C |
 | **Debug** | UART Serial Console |
 
-![WhatsApp Image 2026-01-30 at 1 06 41 AM](https://github.com/user-attachments/assets/ba937aa1-d51e-41b9-b679-6b3a8bdd67c7)
+![WhatsApp Image 2026-01-30 at 1 32 57 AM](https://github.com/user-attachments/assets/e84616b6-3bc6-464d-b73d-a08a89120a95)
+
 
 
 
