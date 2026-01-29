@@ -1,4 +1,4 @@
-# Energy Data Acquisition & Monitoring System (STM32-M4)
+# Energy Data Acquisition With Custom Dsp (STM32-M4)
 
 ## Project Overview
 
