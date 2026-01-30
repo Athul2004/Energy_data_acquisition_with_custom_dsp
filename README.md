@@ -66,7 +66,9 @@ Energy_monitor/
 ```
 
 
+
 ---
+<img width="301" height="611" alt="image" src="https://github.com/user-attachments/assets/6ccec506-d31f-44aa-8114-159bb09ee6f0" />
 
 ---
 
@@ -139,8 +141,11 @@ The `Accumulate_Data` function iterates through raw ADC values for Voltage ($V$)
         
         -   **Energy ($E$)**: Accumulated $P$ over time ($\text{kWh}$).
 
+        <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/8b1c73cc-7e91-4fdd-ab6a-1446f05884ca" />
+
+
 5.  **Output**:
-    -   The results are formatted and sent to the **OLED** and **UART** every second.
+    -   While oled intialize.
 
 ![WhatsApp Image 2026-01-30 at 1 08 35 AM (1)](https://github.com/user-attachments/assets/b59ba95e-5abb-4c94-974c-bffb59e3e1f4)
 
