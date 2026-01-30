@@ -111,6 +111,9 @@ The heart of the application resides in `energy_meter.c`. This module handles th
     -   When the second half is full (Transfer-Complete Interrupt), the CPU processes the second half.
     -   This allows simultaneous sampling and processing.
 
+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/e07828cb-952c-42b4-a616-31cdc2637eed" />
+
 ### DSP Algorithm Details
 
 The `Accumulate_Data` function iterates through raw ADC values for Voltage ($V$) and Current ($I$):
@@ -141,7 +144,7 @@ The `Accumulate_Data` function iterates through raw ADC values for Voltage ($V$)
         
         -   **Energy ($E$)**: Accumulated $P$ over time ($\text{kWh}$).
 
-        <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/8b1c73cc-7e91-4fdd-ab6a-1446f05884ca" />
+        
 
 
 5.  **Output**:
