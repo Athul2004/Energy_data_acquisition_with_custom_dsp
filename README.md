@@ -18,6 +18,11 @@ The system utilizes a bare-metal architecture with no HAL/Standard Peripheral Li
 
 ---
 
+![WhatsApp Image 2026-01-30 at 1 06 41 AM](https://github.com/user-attachments/assets/6b40eb9e-8261-427d-acf4-b4a01b0f1ad8)
+
+
+
+
 ## Hardware Architecture
 
 | Component | Description |
@@ -27,7 +32,11 @@ The system utilizes a bare-metal architecture with no HAL/Standard Peripheral Li
 | **Display** | 0.96" OLED (SSD1306) via I2C |
 | **Debug** | UART Serial Console |
 
-![WhatsApp Image 2026-01-30 at 1 32 57 AM](https://github.com/user-attachments/assets/e84616b6-3bc6-464d-b73d-a08a89120a95)
+
+
+
+https://github.com/user-attachments/assets/146d4626-7df4-4de7-b17f-172879356e62
+
 
 
 ## Project Structure
@@ -119,10 +128,15 @@ The `Accumulate_Data` function iterates through raw ADC values for Voltage ($V$)
 4.  **1-Second Aggregation**:
     -   After 8000 samples (1 second), the final metrics are computed:
         -   **RMS Voltage ($V_{rms}$)**: $\sqrt{\frac{\sum V^2}{N}} \times CalibrationFactor$
+        
         -   **RMS Current ($I_{rms}$)**: $\sqrt{\frac{\sum I^2}{N}} \times CalibrationFactor$
+        
         -   **Active Power ($P$)**: $\frac{\sum (V \times I)}{N}$
+        
         -   **Apparent Power ($S$)**: $V_{rms} \times I_{rms}$
+        
         -   **Power Factor ($PF$)**: $\frac{P}{S} \times 100\%$
+        
         -   **Energy ($E$)**: Accumulated $P$ over time ($\text{kWh}$).
 
 5.  **Output**:
